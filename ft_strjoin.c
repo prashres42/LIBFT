@@ -6,7 +6,7 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 14:48:06 by prashres          #+#    #+#             */
-/*   Updated: 2026/04/29 15:40:02 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/04 12:59:50 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,12 @@ char *ft_strjoin(char const *s1, char const *s2)
 	size_t i;
 	size_t j;
 	
-	if (!s1 || !s2)
-	return (NULL);
+	if (!s1 && !s2)
+		return (NULL);
+	if (!s1)
+		return (ft_strdup(s2));
+	if (!s2)
+		return (ft_strdup(s1));
 	
 	i = ft_strlen(s1);
 	j = ft_strlen(s2);

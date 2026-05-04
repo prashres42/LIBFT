@@ -6,7 +6,7 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/30 13:18:14 by prashres          #+#    #+#             */
-/*   Updated: 2026/05/01 14:41:24 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/04 13:11:08 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,10 +47,10 @@ char *ft_strtrim(char const *s1, char const *set)
 	size_t j;
 	
 	if(!s1)
-	return (NULL);
+		return (NULL);
 	
 	if (!set)
-	return (ft_strdup(s1));
+		return (ft_strdup(s1));
 	
 	if(ft_strlen(s1) == 0)
 		return (ft_strdup(""));
