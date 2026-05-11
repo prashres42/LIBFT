@@ -6,7 +6,7 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 11:49:36 by prashres          #+#    #+#             */
-/*   Updated: 2026/05/08 12:09:30 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 14:27:05 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	char c;
-	long long nb;
+	char		c;
+	long long	nb;
 
 	nb = n;
 	if (nb < 0)

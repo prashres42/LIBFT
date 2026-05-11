@@ -6,7 +6,7 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/14 18:07:06 by prashres          #+#    #+#             */
-/*   Updated: 2026/04/28 13:19:57 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 14:19:45 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,14 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
-	size_t i = 0;
+	size_t	i;
+
+	i = 0;
 	if (size > 0)
 	{
 		while (i < (size - 1) && src[i])
 		{
-			dst[i] = src[i] ;
+			dst[i] = src[i];
 			i++;
 		}
 		dst[i] = '\0';

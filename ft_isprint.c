@@ -6,7 +6,7 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/14 13:41:30 by prashres          #+#    #+#             */
-/*   Updated: 2026/04/21 11:36:51 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 11:24:18 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@ int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
 		return (1);
-	else 
+	else
 		return (0);
 }

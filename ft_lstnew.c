@@ -6,7 +6,7 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 12:15:33 by prashres          #+#    #+#             */
-/*   Updated: 2026/05/08 19:01:23 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 14:35:06 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,12 @@
 
 t_list	*ft_lstnew(void *content)
 {
-	t_list *new;
+	t_list	*new;
 
 	new = malloc (sizeof (t_list));
 	if (!new)
-		return(NULL);
+		return (NULL);
 	new->content = content;
 	new->next = NULL;
-	return(new);
+	return (new);
 }
-

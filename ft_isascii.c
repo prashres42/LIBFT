@@ -6,13 +6,13 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/14 13:37:44 by prashres          #+#    #+#             */
-/*   Updated: 2026/04/17 16:19:11 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 11:23:38 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
 	return (c >= 0 && c <= 127);
 }

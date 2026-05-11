@@ -6,13 +6,13 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/06 15:52:37 by prashres          #+#    #+#             */
-/*   Updated: 2026/05/06 15:55:57 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 14:26:52 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	pt_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
 	write(fd, s, ft_strlen(s));
 }

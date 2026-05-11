@@ -6,19 +6,17 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 11:32:07 by prashres          #+#    #+#             */
-/*   Updated: 2026/05/06 14:31:55 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 11:55:15 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-	if (c >= 'A' && c <='Z')
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (c + 32);
-	}
-	return (0);
+	return (c);
 }
 // int main()
 // {

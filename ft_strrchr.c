@@ -6,18 +6,16 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/20 12:40:59 by prashres          #+#    #+#             */
-/*   Updated: 2026/05/05 19:41:07 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 14:13:03 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
 	while (*s)
-	{
 		s++;
-	}
 	while (*s > 0 && *s--)
 	{
 		if (*s == c)
@@ -30,7 +28,7 @@ char *ft_strrchr(const char *s, int c)
 	{
 		return ((char *)s);
 	}
-	return(NULL);
+	return (NULL);
 }
 // int main ()
 // {
@@ -38,5 +36,4 @@ char *ft_strrchr(const char *s, int c)
 // 	int a = 'd';
 // 	printf("%s\n", ft_strrchr(s , a));
 // 	printf("%s\n", strrchr(s , a));
-	
 // }

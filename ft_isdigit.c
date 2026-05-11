@@ -6,16 +6,16 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/14 13:32:00 by prashres          #+#    #+#             */
-/*   Updated: 2026/04/21 11:35:05 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 11:24:06 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
-	else 
+	else
 		return (0);
 }

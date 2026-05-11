@@ -6,7 +6,7 @@
 /*   By: prashres <prashres@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 16:45:38 by prashres          #+#    #+#             */
-/*   Updated: 2026/04/29 14:06:24 by prashres         ###   ########.fr       */
+/*   Updated: 2026/05/11 14:24:48 by prashres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,15 @@
 
 char	*ft_strdup(const char *s)
 {
-	char *s2;
-	size_t i;
+	char	*s2;
+	size_t	i;
 
-	i = ft_strlen(s); 
-	
-	s2 = malloc((i+1) * sizeof (char));
+	i = ft_strlen(s);
+	s2 = malloc((i + 1) * sizeof (char));
 	if (!s2)
 		return (NULL);
-	ft_memcpy(s2, s, i+1);
-	return s2;
+	ft_memcpy (s2, s, i + 1);
+	return (s2);
 }
 // char	*ft_strdup(const char *s)
 // {
